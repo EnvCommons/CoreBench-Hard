@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+tasks_train.json
+tasks_test.json
+core_test_decrypted.json
+sandbox_data/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
