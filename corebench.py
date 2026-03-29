@@ -91,7 +91,7 @@ class CoreBenchHard(Environment):
             raise ValueError("OpenReward API key required (pass as OPENREWARD_API_KEY)")
 
         self.sandbox_settings = SandboxSettings(
-            environment="GeneralReasoning/CoreBench-Hard",
+            environment="siegelz/CoreBench-Hard",
             image="generalreasoning/python-ds:3.12-tools",
             machine_size="1:4",
             block_network=False,
